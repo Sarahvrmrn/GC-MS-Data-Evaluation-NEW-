@@ -41,7 +41,7 @@ def read_files(path: str, tag: str):
     files = hp.get_all_files_in_dir_and_sub(path)
     files = [f for f in files if f.find('.csv') >= 0]
     merged_df = pd.DataFrame()
-    info = []
+    info = [] 
 
     for file in files:
         df = hp.read_file(file, dec='.', sepi=',')[['RT(milliseconds)', 'TIC']]
