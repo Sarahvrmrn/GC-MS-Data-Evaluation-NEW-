@@ -35,7 +35,7 @@ os.environ["ROOT_PATH"] = hp.mkdir_ifnotexits(
 # Choose your components for LDA and PCA
 
 components_LDA = 3
-components_PCA = 36
+components_PCA = 65
 
 # Get all files for your data set, merge them in on DataFrame and save the DataFrame to CSV
 
